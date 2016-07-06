@@ -256,8 +256,10 @@ namespace SmartStore.Admin.Models.Catalog
 
 		[SmartResourceDisplayName("Admin.Catalog.Products.Fields.ProductCost")]
 		public decimal ProductCost { get; set; }
+        [SmartResourceDisplayName("Admin.Catalog.Products.Fields.ProductCost")]
+        public decimal ProductCostEUR { get; set; }
 
-		[SmartResourceDisplayName("Admin.Catalog.Products.Fields.SpecialPrice")]
+        [SmartResourceDisplayName("Admin.Catalog.Products.Fields.SpecialPrice")]
 		public decimal? SpecialPrice { get; set; }
 
 		[SmartResourceDisplayName("Admin.Catalog.Products.Fields.SpecialPriceStartDateTimeUtc")]

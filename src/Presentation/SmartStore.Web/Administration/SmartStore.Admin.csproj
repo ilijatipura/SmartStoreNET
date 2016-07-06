@@ -730,6 +730,7 @@
     <Content Include="Content\filemanager\lang\de.json" />
     <Content Include="Content\filemanager\lang\en.json" />
     <Content Include="Content\filemanager\lang\fr.json" />
+    <None Include="Properties\PublishProfiles\Luma.pubxml" />
     <None Include="Scripts\jquery-1.8.3.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.3.js" />
     <Content Include="Scripts\jquery-1.8.3.min.js" />

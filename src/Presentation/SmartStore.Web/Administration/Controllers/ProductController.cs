@@ -383,6 +383,7 @@ namespace SmartStore.Admin.Controllers
 			p.Price = m.Price;
 			p.OldPrice = m.OldPrice;
 			p.ProductCost = m.ProductCost;
+            p.ProductCostEUR = m.ProductCostEUR;
 			p.SpecialPrice = m.SpecialPrice;
 			p.SpecialPriceStartDateTimeUtc = m.SpecialPriceStartDateTimeUtc;
 			p.SpecialPriceEndDateTimeUtc = m.SpecialPriceEndDateTimeUtc;

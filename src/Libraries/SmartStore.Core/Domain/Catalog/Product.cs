@@ -527,10 +527,16 @@ namespace SmartStore.Core.Domain.Catalog
 		[DataMember]
 		public decimal ProductCost { get; set; }
 
-		/// <summary>
-		/// Gets or sets the product special price
-		/// </summary>
-		[DataMember]
+        /// <summary>
+        /// Gets or sets the product cost in EUR
+        /// </summary>
+        [DataMember]
+        public decimal ProductCostEUR { get; set; }
+
+        /// <summary>
+        /// Gets or sets the product special price
+        /// </summary>
+        [DataMember]
 		public decimal? SpecialPrice { get; set; }
 
 		/// <summary>

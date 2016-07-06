@@ -196,6 +196,7 @@ namespace SmartStore.Services.Catalog
 				Price = product.Price,
 				OldPrice = product.OldPrice,
 				ProductCost = product.ProductCost,
+                ProductCostEUR = product.ProductCostEUR,
 				SpecialPrice = product.SpecialPrice,
 				SpecialPriceStartDateTimeUtc = product.SpecialPriceStartDateTimeUtc,
 				SpecialPriceEndDateTimeUtc = product.SpecialPriceEndDateTimeUtc,

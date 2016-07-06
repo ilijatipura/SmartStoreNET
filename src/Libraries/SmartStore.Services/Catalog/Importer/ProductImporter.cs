@@ -375,7 +375,8 @@ namespace SmartStore.Services.Catalog.Importer
 				row.SetProperty(context.Result, (x) => x.Price);
 				row.SetProperty(context.Result, (x) => x.OldPrice);
 				row.SetProperty(context.Result, (x) => x.ProductCost);
-				row.SetProperty(context.Result, (x) => x.SpecialPrice);
+                row.SetProperty(context.Result, (x) => x.ProductCostEUR);
+                row.SetProperty(context.Result, (x) => x.SpecialPrice);
 				row.SetProperty(context.Result, (x) => x.SpecialPriceStartDateTimeUtc);
 				row.SetProperty(context.Result, (x) => x.SpecialPriceEndDateTimeUtc);
 				row.SetProperty(context.Result, (x) => x.CustomerEntersPrice);

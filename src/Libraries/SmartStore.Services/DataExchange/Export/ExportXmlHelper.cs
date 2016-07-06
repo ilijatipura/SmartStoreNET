@@ -502,7 +502,8 @@ namespace SmartStore.Services.DataExchange.Export
 			_writer.Write("Price", entity.Price.ToString(_culture));
 			_writer.Write("OldPrice", entity.OldPrice.ToString(_culture));
 			_writer.Write("ProductCost", entity.ProductCost.ToString(_culture));
-			_writer.Write("SpecialPrice", entity.SpecialPrice.HasValue ? entity.SpecialPrice.Value.ToString(_culture) : "");
+            _writer.Write("ProductCostEUR", entity.ProductCostEUR.ToString(_culture));
+            _writer.Write("SpecialPrice", entity.SpecialPrice.HasValue ? entity.SpecialPrice.Value.ToString(_culture) : "");
 			_writer.Write("SpecialPriceStartDateTimeUtc", entity.SpecialPriceStartDateTimeUtc.HasValue ? entity.SpecialPriceStartDateTimeUtc.Value.ToString(_culture) : "");
 			_writer.Write("SpecialPriceEndDateTimeUtc", entity.SpecialPriceEndDateTimeUtc.HasValue ? entity.SpecialPriceEndDateTimeUtc.Value.ToString(_culture) : "");
 			_writer.Write("CustomerEntersPrice", entity.CustomerEntersPrice.ToString());

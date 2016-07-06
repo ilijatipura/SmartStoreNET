@@ -106,6 +106,15 @@
         </tr>
         <tr>
             <td class="adminTitle">
+                @Html.SmartLabelFor(model => model.ProductCost)
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.ProductCostEUR) <span class="muted">EUR</span>
+                @Html.ValidationMessageFor(model => model.ProductCostEUR)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
                 @Html.SmartLabelFor(model => model.SpecialPrice)
             </td>
             <td class="adminData">
